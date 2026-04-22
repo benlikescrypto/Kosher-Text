@@ -1,8 +1,10 @@
 ### Reporting
-Before you report something, read the reporting rules [here](https://github.com/FossifyOrg/General-Discussion#how-do-i-suggest-an-improvement-ask-a-question-or-report-an-issue) please.
+Open an issue in this repository with steps to reproduce, your device and Android version, and (if possible) a screenshot or log. Keep one topic per issue.
 
-### Contributing as a developer
-Some instructions about code style and everything that has to be done to increase the chance of your code getting accepted can be found at the [General Discussion](https://github.com/FossifyOrg/General-Discussion#contribution-rules-for-developers) section. 
+### Contributing
+Pull requests for bug fixes and small improvements are welcome. Match existing code style and keep changes focused. If you are unsure, open an issue to discuss your idea first.
 
-### Contributing as a non developer
-In case you just want to for example improve a translation, you can find the way of doing it [here](https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file).
+For translations, prefer updating the `values-*` string resources in this project so everything stays in sync with releases.
+
+### License
+This project is licensed under the GNU General Public License v3.0 — see the `LICENSE` file. By contributing, you agree your work is offered under the same terms.
