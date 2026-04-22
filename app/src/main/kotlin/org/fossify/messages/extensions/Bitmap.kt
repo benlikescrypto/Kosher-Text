@@ -1,4 +1,4 @@
-package org.fossify.messages.extensions
+package com.kosherlabs.koshertext.extensions
 
 import android.graphics.Bitmap
 

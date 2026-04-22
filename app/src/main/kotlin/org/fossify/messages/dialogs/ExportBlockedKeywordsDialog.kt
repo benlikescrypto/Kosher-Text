@@ -1,4 +1,4 @@
-package org.fossify.messages.dialogs
+package com.kosherlabs.koshertext.dialogs
 
 import androidx.appcompat.app.AlertDialog
 import org.fossify.commons.activities.BaseSimpleActivity
@@ -15,10 +15,10 @@ import org.fossify.commons.extensions.showKeyboard
 import org.fossify.commons.extensions.toast
 import org.fossify.commons.extensions.value
 import org.fossify.commons.helpers.ensureBackgroundThread
-import org.fossify.messages.R
-import org.fossify.messages.databinding.DialogExportBlockedKeywordsBinding
-import org.fossify.messages.extensions.config
-import org.fossify.messages.helpers.BLOCKED_KEYWORDS_EXPORT_EXTENSION
+import com.kosherlabs.koshertext.R
+import com.kosherlabs.koshertext.databinding.DialogExportBlockedKeywordsBinding
+import com.kosherlabs.koshertext.extensions.config
+import com.kosherlabs.koshertext.helpers.BLOCKED_KEYWORDS_EXPORT_EXTENSION
 import java.io.File
 
 class ExportBlockedKeywordsDialog(

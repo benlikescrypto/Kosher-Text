@@ -1,10 +1,10 @@
-package org.fossify.messages.interfaces
+package com.kosherlabs.koshertext.interfaces
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import org.fossify.messages.models.Draft
+import com.kosherlabs.koshertext.models.Draft
 
 @Dao
 interface DraftsDao {

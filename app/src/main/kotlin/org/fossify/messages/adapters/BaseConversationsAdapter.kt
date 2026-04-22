@@ -1,4 +1,4 @@
-package org.fossify.messages.adapters
+package com.kosherlabs.koshertext.adapters
 
 import android.annotation.SuppressLint
 import android.graphics.Typeface
@@ -22,11 +22,11 @@ import org.fossify.commons.helpers.FontHelper
 import org.fossify.commons.helpers.SimpleContactsHelper
 import org.fossify.commons.helpers.ensureBackgroundThread
 import org.fossify.commons.views.MyRecyclerView
-import org.fossify.messages.activities.SimpleActivity
-import org.fossify.messages.databinding.ItemConversationBinding
-import org.fossify.messages.extensions.config
-import org.fossify.messages.extensions.getAllDrafts
-import org.fossify.messages.models.Conversation
+import com.kosherlabs.koshertext.activities.SimpleActivity
+import com.kosherlabs.koshertext.databinding.ItemConversationBinding
+import com.kosherlabs.koshertext.extensions.config
+import com.kosherlabs.koshertext.extensions.getAllDrafts
+import com.kosherlabs.koshertext.models.Conversation
 
 @Suppress("LeakingThis")
 abstract class BaseConversationsAdapter(

@@ -1,4 +1,4 @@
-package org.fossify.messages.receivers
+package com.kosherlabs.koshertext.receivers
 
 import android.content.Context
 import android.net.Uri
@@ -11,18 +11,18 @@ import org.fossify.commons.extensions.showErrorToast
 import org.fossify.commons.helpers.ContactLookupResult
 import org.fossify.commons.helpers.SimpleContactsHelper
 import org.fossify.commons.helpers.ensureBackgroundThread
-import org.fossify.messages.R
-import org.fossify.messages.extensions.getConversations
-import org.fossify.messages.extensions.getLatestMMS
-import org.fossify.messages.extensions.getNameFromAddress
-import org.fossify.messages.extensions.insertOrUpdateConversation
-import org.fossify.messages.extensions.shouldUnarchive
-import org.fossify.messages.extensions.showReceivedMessageNotification
-import org.fossify.messages.extensions.updateConversationArchivedStatus
-import org.fossify.messages.helpers.ReceiverUtils.isMessageFilteredOut
-import org.fossify.messages.helpers.refreshConversations
-import org.fossify.messages.helpers.refreshMessages
-import org.fossify.messages.models.Message
+import com.kosherlabs.koshertext.R
+import com.kosherlabs.koshertext.extensions.getConversations
+import com.kosherlabs.koshertext.extensions.getLatestMMS
+import com.kosherlabs.koshertext.extensions.getNameFromAddress
+import com.kosherlabs.koshertext.extensions.insertOrUpdateConversation
+import com.kosherlabs.koshertext.extensions.shouldUnarchive
+import com.kosherlabs.koshertext.extensions.showReceivedMessageNotification
+import com.kosherlabs.koshertext.extensions.updateConversationArchivedStatus
+import com.kosherlabs.koshertext.helpers.ReceiverUtils.isMessageFilteredOut
+import com.kosherlabs.koshertext.helpers.refreshConversations
+import com.kosherlabs.koshertext.helpers.refreshMessages
+import com.kosherlabs.koshertext.models.Message
 
 class MmsReceiver : MmsReceivedReceiver() {
 

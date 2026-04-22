@@ -1,4 +1,4 @@
-package org.fossify.messages.receivers
+package com.kosherlabs.koshertext.receivers
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -8,15 +8,15 @@ import android.os.Looper
 import android.os.PowerManager
 import org.fossify.commons.extensions.showErrorToast
 import org.fossify.commons.helpers.ensureBackgroundThread
-import org.fossify.messages.extensions.conversationsDB
-import org.fossify.messages.extensions.deleteScheduledMessage
-import org.fossify.messages.extensions.getAddresses
-import org.fossify.messages.extensions.messagesDB
-import org.fossify.messages.helpers.SCHEDULED_MESSAGE_ID
-import org.fossify.messages.helpers.THREAD_ID
-import org.fossify.messages.helpers.refreshConversations
-import org.fossify.messages.helpers.refreshMessages
-import org.fossify.messages.messaging.sendMessageCompat
+import com.kosherlabs.koshertext.extensions.conversationsDB
+import com.kosherlabs.koshertext.extensions.deleteScheduledMessage
+import com.kosherlabs.koshertext.extensions.getAddresses
+import com.kosherlabs.koshertext.extensions.messagesDB
+import com.kosherlabs.koshertext.helpers.SCHEDULED_MESSAGE_ID
+import com.kosherlabs.koshertext.helpers.THREAD_ID
+import com.kosherlabs.koshertext.helpers.refreshConversations
+import com.kosherlabs.koshertext.helpers.refreshMessages
+import com.kosherlabs.koshertext.messaging.sendMessageCompat
 import kotlin.time.Duration.Companion.minutes
 
 class ScheduledMessageReceiver : BroadcastReceiver() {

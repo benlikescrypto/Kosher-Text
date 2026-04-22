@@ -1,4 +1,4 @@
-package org.fossify.messages.messaging
+package com.kosherlabs.koshertext.messaging
 
 class SmsException(val errorCode: Int, val exception: Exception? = null) : Exception() {
     companion object {

@@ -1,4 +1,4 @@
-package org.fossify.messages.helpers
+package com.kosherlabs.koshertext.helpers
 
 import android.net.Uri
 import android.util.Xml
@@ -9,14 +9,14 @@ import org.fossify.commons.extensions.showErrorToast
 import org.fossify.commons.extensions.toast
 import org.fossify.commons.helpers.ensureBackgroundThread
 import org.fossify.commons.helpers.isUpsideDownCakePlus
-import org.fossify.messages.activities.SimpleActivity
-import org.fossify.messages.dialogs.ImportMessagesDialog
-import org.fossify.messages.extensions.config
-import org.fossify.messages.models.BackupType
-import org.fossify.messages.models.ImportResult
-import org.fossify.messages.models.MessagesBackup
-import org.fossify.messages.models.MmsBackup
-import org.fossify.messages.models.SmsBackup
+import com.kosherlabs.koshertext.activities.SimpleActivity
+import com.kosherlabs.koshertext.dialogs.ImportMessagesDialog
+import com.kosherlabs.koshertext.extensions.config
+import com.kosherlabs.koshertext.models.BackupType
+import com.kosherlabs.koshertext.models.ImportResult
+import com.kosherlabs.koshertext.models.MessagesBackup
+import com.kosherlabs.koshertext.models.MmsBackup
+import com.kosherlabs.koshertext.models.SmsBackup
 import org.xmlpull.v1.XmlPullParser
 import java.io.InputStream
 

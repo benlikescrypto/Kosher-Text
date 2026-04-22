@@ -31,5 +31,5 @@
 
 # Gson
 -keep class org.fossify.commons.models.SimpleContact { *; }
--keep class org.fossify.messages.models.Attachment { *; }
--keep class org.fossify.messages.models.MessageAttachment { *; }
+-keep class com.kosherlabs.koshertext.models.Attachment { *; }
+-keep class com.kosherlabs.koshertext.models.MessageAttachment { *; }

@@ -1,4 +1,4 @@
-package org.fossify.messages.receivers
+package com.kosherlabs.koshertext.receivers
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -12,20 +12,20 @@ import org.fossify.commons.helpers.SimpleContactsHelper
 import org.fossify.commons.helpers.ensureBackgroundThread
 import org.fossify.commons.models.PhoneNumber
 import org.fossify.commons.models.SimpleContact
-import org.fossify.messages.extensions.getConversations
-import org.fossify.messages.extensions.getNameFromAddress
-import org.fossify.messages.extensions.getNotificationBitmap
-import org.fossify.messages.extensions.getThreadId
-import org.fossify.messages.extensions.insertNewSMS
-import org.fossify.messages.extensions.insertOrUpdateConversation
-import org.fossify.messages.extensions.messagesDB
-import org.fossify.messages.extensions.shouldUnarchive
-import org.fossify.messages.extensions.showReceivedMessageNotification
-import org.fossify.messages.extensions.updateConversationArchivedStatus
-import org.fossify.messages.helpers.ReceiverUtils.isMessageFilteredOut
-import org.fossify.messages.helpers.refreshConversations
-import org.fossify.messages.helpers.refreshMessages
-import org.fossify.messages.models.Message
+import com.kosherlabs.koshertext.extensions.getConversations
+import com.kosherlabs.koshertext.extensions.getNameFromAddress
+import com.kosherlabs.koshertext.extensions.getNotificationBitmap
+import com.kosherlabs.koshertext.extensions.getThreadId
+import com.kosherlabs.koshertext.extensions.insertNewSMS
+import com.kosherlabs.koshertext.extensions.insertOrUpdateConversation
+import com.kosherlabs.koshertext.extensions.messagesDB
+import com.kosherlabs.koshertext.extensions.shouldUnarchive
+import com.kosherlabs.koshertext.extensions.showReceivedMessageNotification
+import com.kosherlabs.koshertext.extensions.updateConversationArchivedStatus
+import com.kosherlabs.koshertext.helpers.ReceiverUtils.isMessageFilteredOut
+import com.kosherlabs.koshertext.helpers.refreshConversations
+import com.kosherlabs.koshertext.helpers.refreshMessages
+import com.kosherlabs.koshertext.models.Message
 
 class SmsReceiver : BroadcastReceiver() {
 

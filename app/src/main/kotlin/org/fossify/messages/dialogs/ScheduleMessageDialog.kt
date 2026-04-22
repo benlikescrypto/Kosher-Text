@@ -1,4 +1,4 @@
-package org.fossify.messages.dialogs
+package com.kosherlabs.koshertext.dialogs
 
 import android.app.DatePickerDialog
 import android.app.DatePickerDialog.OnDateSetListener
@@ -17,10 +17,10 @@ import org.fossify.commons.extensions.getTimeFormat
 import org.fossify.commons.extensions.isDynamicTheme
 import org.fossify.commons.extensions.setupDialogStuff
 import org.fossify.commons.extensions.toast
-import org.fossify.messages.R
-import org.fossify.messages.databinding.ScheduleMessageDialogBinding
-import org.fossify.messages.extensions.config
-import org.fossify.messages.extensions.roundToClosestMultipleOf
+import com.kosherlabs.koshertext.R
+import com.kosherlabs.koshertext.databinding.ScheduleMessageDialogBinding
+import com.kosherlabs.koshertext.extensions.config
+import com.kosherlabs.koshertext.extensions.roundToClosestMultipleOf
 import org.joda.time.DateTime
 import java.util.Calendar
 

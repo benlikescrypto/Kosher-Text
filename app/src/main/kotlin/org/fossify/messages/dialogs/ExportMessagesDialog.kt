@@ -1,4 +1,4 @@
-package org.fossify.messages.dialogs
+package com.kosherlabs.koshertext.dialogs
 
 import android.annotation.SuppressLint
 import android.net.Uri
@@ -16,11 +16,11 @@ import org.fossify.commons.extensions.toast
 import org.fossify.commons.extensions.value
 import org.fossify.commons.helpers.MEDIUM_ALPHA
 import org.fossify.commons.helpers.ensureBackgroundThread
-import org.fossify.messages.R
-import org.fossify.messages.activities.SimpleActivity
-import org.fossify.messages.databinding.DialogExportMessagesBinding
-import org.fossify.messages.extensions.config
-import org.fossify.messages.helpers.MessagesReader
+import com.kosherlabs.koshertext.R
+import com.kosherlabs.koshertext.activities.SimpleActivity
+import com.kosherlabs.koshertext.databinding.DialogExportMessagesBinding
+import com.kosherlabs.koshertext.extensions.config
+import com.kosherlabs.koshertext.helpers.MessagesReader
 
 class ExportMessagesDialog(
     private val activity: SimpleActivity,

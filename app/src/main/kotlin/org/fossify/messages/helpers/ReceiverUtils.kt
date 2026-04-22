@@ -1,7 +1,7 @@
-package org.fossify.messages.helpers
+package com.kosherlabs.koshertext.helpers
 
 import android.content.Context
-import org.fossify.messages.extensions.config
+import com.kosherlabs.koshertext.extensions.config
 
 object ReceiverUtils {
 

@@ -1,13 +1,13 @@
-package org.fossify.messages.models
+package com.kosherlabs.koshertext.models
 
 import android.provider.Telephony
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import org.fossify.commons.models.SimpleContact
-import org.fossify.messages.helpers.THREAD_RECEIVED_MESSAGE
-import org.fossify.messages.helpers.THREAD_SENT_MESSAGE
-import org.fossify.messages.helpers.generateStableId
+import com.kosherlabs.koshertext.helpers.THREAD_RECEIVED_MESSAGE
+import com.kosherlabs.koshertext.helpers.THREAD_SENT_MESSAGE
+import com.kosherlabs.koshertext.helpers.generateStableId
 
 @Entity(tableName = "messages")
 data class Message(

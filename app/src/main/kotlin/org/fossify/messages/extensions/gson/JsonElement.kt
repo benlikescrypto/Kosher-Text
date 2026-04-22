@@ -1,4 +1,4 @@
-package org.fossify.messages.extensions.gson
+package com.kosherlabs.koshertext.extensions.gson
 
 import com.google.gson.*
 import java.math.BigDecimal

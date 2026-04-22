@@ -1,12 +1,12 @@
-package org.fossify.messages.models
+package com.kosherlabs.koshertext.models
 
 import android.net.Uri
-import org.fossify.messages.extensions.isImageMimeType
-import org.fossify.messages.extensions.isVCardMimeType
-import org.fossify.messages.extensions.isVideoMimeType
-import org.fossify.messages.helpers.ATTACHMENT_DOCUMENT
-import org.fossify.messages.helpers.ATTACHMENT_MEDIA
-import org.fossify.messages.helpers.ATTACHMENT_VCARD
+import com.kosherlabs.koshertext.extensions.isImageMimeType
+import com.kosherlabs.koshertext.extensions.isVCardMimeType
+import com.kosherlabs.koshertext.extensions.isVideoMimeType
+import com.kosherlabs.koshertext.helpers.ATTACHMENT_DOCUMENT
+import com.kosherlabs.koshertext.helpers.ATTACHMENT_MEDIA
+import com.kosherlabs.koshertext.helpers.ATTACHMENT_VCARD
 
 data class AttachmentSelection(
     val id: String,

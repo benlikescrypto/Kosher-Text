@@ -1,5 +1,5 @@
 @file:Suppress("MagicNumber")
-package org.fossify.messages.databases
+package com.kosherlabs.koshertext.databases
 
 import android.content.Context
 import androidx.room.Database
@@ -8,18 +8,18 @@ import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 import androidx.room.migration.Migration
 import androidx.sqlite.db.SupportSQLiteDatabase
-import org.fossify.messages.helpers.Converters
-import org.fossify.messages.interfaces.AttachmentsDao
-import org.fossify.messages.interfaces.ConversationsDao
-import org.fossify.messages.interfaces.DraftsDao
-import org.fossify.messages.interfaces.MessageAttachmentsDao
-import org.fossify.messages.interfaces.MessagesDao
-import org.fossify.messages.models.Attachment
-import org.fossify.messages.models.Conversation
-import org.fossify.messages.models.Draft
-import org.fossify.messages.models.Message
-import org.fossify.messages.models.MessageAttachment
-import org.fossify.messages.models.RecycleBinMessage
+import com.kosherlabs.koshertext.helpers.Converters
+import com.kosherlabs.koshertext.interfaces.AttachmentsDao
+import com.kosherlabs.koshertext.interfaces.ConversationsDao
+import com.kosherlabs.koshertext.interfaces.DraftsDao
+import com.kosherlabs.koshertext.interfaces.MessageAttachmentsDao
+import com.kosherlabs.koshertext.interfaces.MessagesDao
+import com.kosherlabs.koshertext.models.Attachment
+import com.kosherlabs.koshertext.models.Conversation
+import com.kosherlabs.koshertext.models.Draft
+import com.kosherlabs.koshertext.models.Message
+import com.kosherlabs.koshertext.models.MessageAttachment
+import com.kosherlabs.koshertext.models.RecycleBinMessage
 
 @Database(
     entities = [

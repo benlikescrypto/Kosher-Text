@@ -1,4 +1,4 @@
-package org.fossify.messages.adapters
+package com.kosherlabs.koshertext.adapters
 
 import android.view.LayoutInflater
 import android.view.View
@@ -12,7 +12,7 @@ import org.fossify.commons.extensions.getProperBackgroundColor
 import org.fossify.commons.extensions.normalizeString
 import org.fossify.commons.helpers.SimpleContactsHelper
 import org.fossify.commons.models.SimpleContact
-import org.fossify.messages.activities.SimpleActivity
+import com.kosherlabs.koshertext.activities.SimpleActivity
 
 class AutoCompleteTextViewAdapter(val activity: SimpleActivity, val contacts: ArrayList<SimpleContact>) : ArrayAdapter<SimpleContact>(activity, 0, contacts) {
     var resultList = ArrayList<SimpleContact>()

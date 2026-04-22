@@ -1,4 +1,4 @@
-package org.fossify.messages.receivers
+package com.kosherlabs.koshertext.receivers
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -21,8 +21,8 @@ abstract class SendStatusReceiver : BroadcastReceiver() {
     }
 
     companion object {
-        const val SMS_SENT_ACTION = "org.fossify.org.fossify.messages.receiver.SMS_SENT"
-        const val SMS_DELIVERED_ACTION = "org.fossify.org.fossify.messages.receiver.SMS_DELIVERED"
+        const val SMS_SENT_ACTION = "org.fossify.com.kosherlabs.koshertext.receiver.SMS_SENT"
+        const val SMS_DELIVERED_ACTION = "org.fossify.com.kosherlabs.koshertext.receiver.SMS_DELIVERED"
 
         // Defined by platform, but no constant provided. See docs for SmsManager.sendTextMessage.
         const val EXTRA_ERROR_CODE = "errorCode"

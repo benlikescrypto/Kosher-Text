@@ -1,4 +1,4 @@
-package org.fossify.messages.extensions.gson
+package com.kosherlabs.koshertext.extensions.gson
 
 import com.google.gson.JsonArray
 import com.google.gson.JsonElement

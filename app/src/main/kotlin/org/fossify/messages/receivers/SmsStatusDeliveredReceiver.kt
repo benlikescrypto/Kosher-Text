@@ -1,4 +1,4 @@
-package org.fossify.messages.receivers
+package com.kosherlabs.koshertext.receivers
 
 import android.annotation.SuppressLint
 import android.content.ContentValues
@@ -7,9 +7,9 @@ import android.content.Intent
 import android.net.Uri
 import android.provider.Telephony.Sms
 import org.fossify.commons.helpers.ensureBackgroundThread
-import org.fossify.messages.extensions.messagesDB
-import org.fossify.messages.extensions.messagingUtils
-import org.fossify.messages.helpers.refreshMessages
+import com.kosherlabs.koshertext.extensions.messagesDB
+import com.kosherlabs.koshertext.extensions.messagingUtils
+import com.kosherlabs.koshertext.helpers.refreshMessages
 
 /** Handles updating databases and states when a sent SMS message is delivered. */
 class SmsStatusDeliveredReceiver : SendStatusReceiver() {

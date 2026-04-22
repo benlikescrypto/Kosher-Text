@@ -1,4 +1,4 @@
-package org.fossify.messages.dialogs
+package com.kosherlabs.koshertext.dialogs
 
 import android.annotation.SuppressLint
 import android.telephony.SubscriptionInfo
@@ -8,10 +8,10 @@ import org.fossify.commons.extensions.getAlertDialogBuilder
 import org.fossify.commons.extensions.getTimeFormat
 import org.fossify.commons.extensions.getTimeFormatWithSeconds
 import org.fossify.commons.extensions.setupDialogStuff
-import org.fossify.messages.R
-import org.fossify.messages.extensions.config
-import org.fossify.messages.extensions.subscriptionManagerCompat
-import org.fossify.messages.models.Message
+import com.kosherlabs.koshertext.R
+import com.kosherlabs.koshertext.extensions.config
+import com.kosherlabs.koshertext.extensions.subscriptionManagerCompat
+import com.kosherlabs.koshertext.models.Message
 import org.joda.time.DateTime
 
 class MessageDetailsDialog(val activity: BaseSimpleActivity, val message: Message) : BasePropertiesDialog(activity) {

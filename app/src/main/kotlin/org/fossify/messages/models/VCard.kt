@@ -1,12 +1,12 @@
-package org.fossify.messages.models
+package com.kosherlabs.koshertext.models
 
 import android.content.Context
 import ezvcard.VCard
 import ezvcard.property.*
 import org.fossify.commons.extensions.normalizePhoneNumber
-import org.fossify.messages.extensions.config
-import org.fossify.messages.extensions.format
-import org.fossify.messages.helpers.parseNameFromVCard
+import com.kosherlabs.koshertext.extensions.config
+import com.kosherlabs.koshertext.extensions.format
+import com.kosherlabs.koshertext.helpers.parseNameFromVCard
 
 private val displayedPropertyClasses = arrayOf(
     Telephone::class.java, Email::class.java, Organization::class.java, Birthday::class.java, Anniversary::class.java, Note::class.java

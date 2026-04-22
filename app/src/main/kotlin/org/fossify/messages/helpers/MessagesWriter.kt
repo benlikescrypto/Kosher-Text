@@ -1,4 +1,4 @@
-package org.fossify.messages.helpers
+package com.kosherlabs.koshertext.helpers
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -11,11 +11,11 @@ import com.klinker.android.send_message.Utils
 import org.fossify.commons.extensions.getLongValue
 import org.fossify.commons.extensions.queryCursor
 import org.fossify.commons.helpers.isRPlus
-import org.fossify.messages.extensions.updateLastConversationMessage
-import org.fossify.messages.models.MmsAddress
-import org.fossify.messages.models.MmsBackup
-import org.fossify.messages.models.MmsPart
-import org.fossify.messages.models.SmsBackup
+import com.kosherlabs.koshertext.extensions.updateLastConversationMessage
+import com.kosherlabs.koshertext.models.MmsAddress
+import com.kosherlabs.koshertext.models.MmsBackup
+import com.kosherlabs.koshertext.models.MmsPart
+import com.kosherlabs.koshertext.models.SmsBackup
 
 class MessagesWriter(private val context: Context) {
     private val INVALID_ID = -1L

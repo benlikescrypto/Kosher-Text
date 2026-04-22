@@ -1,4 +1,4 @@
-package org.fossify.messages.dialogs
+package com.kosherlabs.koshertext.dialogs
 
 import androidx.appcompat.app.AlertDialog
 import org.fossify.commons.activities.BaseSimpleActivity
@@ -6,8 +6,8 @@ import org.fossify.commons.extensions.getAlertDialogBuilder
 import org.fossify.commons.extensions.setupDialogStuff
 import org.fossify.commons.extensions.showKeyboard
 import org.fossify.commons.extensions.value
-import org.fossify.messages.databinding.DialogAddBlockedKeywordBinding
-import org.fossify.messages.extensions.config
+import com.kosherlabs.koshertext.databinding.DialogAddBlockedKeywordBinding
+import com.kosherlabs.koshertext.extensions.config
 
 class AddBlockedKeywordDialog(val activity: BaseSimpleActivity, private val originalKeyword: String? = null, val callback: () -> Unit) {
     init {

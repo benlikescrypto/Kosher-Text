@@ -1,11 +1,11 @@
-package org.fossify.messages.dialogs
+package com.kosherlabs.koshertext.dialogs
 
 import android.app.Activity
 import androidx.appcompat.app.AlertDialog
 import org.fossify.commons.extensions.beGoneIf
 import org.fossify.commons.extensions.getAlertDialogBuilder
 import org.fossify.commons.extensions.setupDialogStuff
-import org.fossify.messages.databinding.DialogDeleteConfirmationBinding
+import com.kosherlabs.koshertext.databinding.DialogDeleteConfirmationBinding
 
 class DeleteConfirmationDialog(
     private val activity: Activity,

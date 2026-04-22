@@ -1,4 +1,4 @@
-package org.fossify.messages
+package com.kosherlabs.koshertext
 
 import android.database.ContentObserver
 import android.net.Uri
@@ -9,8 +9,8 @@ import org.fossify.commons.FossifyApp
 import org.fossify.commons.extensions.hasPermission
 import org.fossify.commons.helpers.PERMISSION_READ_CONTACTS
 import org.fossify.commons.helpers.ensureBackgroundThread
-import org.fossify.messages.extensions.rescheduleAllScheduledMessages
-import org.fossify.messages.helpers.MessagingCache
+import com.kosherlabs.koshertext.extensions.rescheduleAllScheduledMessages
+import com.kosherlabs.koshertext.helpers.MessagingCache
 
 class App : FossifyApp() {
     override val isAppLockFeatureAvailable = true

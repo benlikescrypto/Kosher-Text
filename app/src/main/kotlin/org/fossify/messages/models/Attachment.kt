@@ -1,4 +1,4 @@
-package org.fossify.messages.models
+package com.kosherlabs.koshertext.models
 
 import androidx.core.net.toUri
 import androidx.room.ColumnInfo

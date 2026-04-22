@@ -1,4 +1,4 @@
-package org.fossify.messages.receivers
+package com.kosherlabs.koshertext.receivers
 
 import android.app.Activity
 import android.content.Context
@@ -11,14 +11,14 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.ProcessLifecycleOwner
 import org.fossify.commons.extensions.getMyContactsCursor
 import org.fossify.commons.helpers.ensureBackgroundThread
-import org.fossify.messages.extensions.getMessageRecipientAddress
-import org.fossify.messages.extensions.getNameFromAddress
-import org.fossify.messages.extensions.getThreadId
-import org.fossify.messages.extensions.messagesDB
-import org.fossify.messages.extensions.messagingUtils
-import org.fossify.messages.extensions.notificationHelper
-import org.fossify.messages.helpers.refreshConversations
-import org.fossify.messages.helpers.refreshMessages
+import com.kosherlabs.koshertext.extensions.getMessageRecipientAddress
+import com.kosherlabs.koshertext.extensions.getNameFromAddress
+import com.kosherlabs.koshertext.extensions.getThreadId
+import com.kosherlabs.koshertext.extensions.messagesDB
+import com.kosherlabs.koshertext.extensions.messagingUtils
+import com.kosherlabs.koshertext.extensions.notificationHelper
+import com.kosherlabs.koshertext.helpers.refreshConversations
+import com.kosherlabs.koshertext.helpers.refreshMessages
 
 /** Handles updating databases and states when a SMS message is sent. */
 class SmsStatusSentReceiver : SendStatusReceiver() {

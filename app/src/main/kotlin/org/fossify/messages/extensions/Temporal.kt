@@ -1,4 +1,4 @@
-package org.fossify.messages.extensions
+package com.kosherlabs.koshertext.extensions
 
 import java.time.format.DateTimeFormatter
 import java.time.temporal.Temporal

@@ -1,4 +1,4 @@
-package org.fossify.messages.activities
+package com.kosherlabs.koshertext.activities
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -21,18 +21,18 @@ import org.fossify.commons.extensions.viewBinding
 import org.fossify.commons.helpers.NavigationIcon
 import org.fossify.commons.helpers.ensureBackgroundThread
 import org.fossify.commons.models.SimpleContact
-import org.fossify.messages.adapters.ContactsAdapter
-import org.fossify.messages.databinding.ActivityConversationDetailsBinding
-import org.fossify.messages.dialogs.RenameConversationDialog
-import org.fossify.messages.extensions.config
-import org.fossify.messages.extensions.conversationsDB
-import org.fossify.messages.extensions.getContactFromAddress
-import org.fossify.messages.extensions.getThreadParticipants
-import org.fossify.messages.extensions.messagesDB
-import org.fossify.messages.extensions.renameConversation
-import org.fossify.messages.extensions.startContactDetailsIntent
-import org.fossify.messages.helpers.THREAD_ID
-import org.fossify.messages.models.Conversation
+import com.kosherlabs.koshertext.adapters.ContactsAdapter
+import com.kosherlabs.koshertext.databinding.ActivityConversationDetailsBinding
+import com.kosherlabs.koshertext.dialogs.RenameConversationDialog
+import com.kosherlabs.koshertext.extensions.config
+import com.kosherlabs.koshertext.extensions.conversationsDB
+import com.kosherlabs.koshertext.extensions.getContactFromAddress
+import com.kosherlabs.koshertext.extensions.getThreadParticipants
+import com.kosherlabs.koshertext.extensions.messagesDB
+import com.kosherlabs.koshertext.extensions.renameConversation
+import com.kosherlabs.koshertext.extensions.startContactDetailsIntent
+import com.kosherlabs.koshertext.helpers.THREAD_ID
+import com.kosherlabs.koshertext.models.Conversation
 
 class ConversationDetailsActivity : SimpleActivity() {
 

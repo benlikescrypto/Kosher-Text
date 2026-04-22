@@ -1,4 +1,4 @@
-package org.fossify.messages.adapters
+package com.kosherlabs.koshertext.adapters
 
 import android.content.Intent
 import android.graphics.drawable.Drawable
@@ -20,14 +20,14 @@ import com.bumptech.glide.request.RequestOptions
 import com.bumptech.glide.request.target.Target
 import org.fossify.commons.activities.BaseSimpleActivity
 import org.fossify.commons.extensions.*
-import org.fossify.messages.R
-import org.fossify.messages.activities.VCardViewerActivity
-import org.fossify.messages.databinding.ItemAttachmentDocumentPreviewBinding
-import org.fossify.messages.databinding.ItemAttachmentMediaPreviewBinding
-import org.fossify.messages.databinding.ItemAttachmentVcardPreviewBinding
-import org.fossify.messages.extensions.*
-import org.fossify.messages.helpers.*
-import org.fossify.messages.models.AttachmentSelection
+import com.kosherlabs.koshertext.R
+import com.kosherlabs.koshertext.activities.VCardViewerActivity
+import com.kosherlabs.koshertext.databinding.ItemAttachmentDocumentPreviewBinding
+import com.kosherlabs.koshertext.databinding.ItemAttachmentMediaPreviewBinding
+import com.kosherlabs.koshertext.databinding.ItemAttachmentVcardPreviewBinding
+import com.kosherlabs.koshertext.extensions.*
+import com.kosherlabs.koshertext.helpers.*
+import com.kosherlabs.koshertext.models.AttachmentSelection
 
 class AttachmentsAdapter(
     val activity: BaseSimpleActivity,

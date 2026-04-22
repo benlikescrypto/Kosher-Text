@@ -1,4 +1,4 @@
-package org.fossify.messages.activities
+package com.kosherlabs.koshertext.activities
 
 import android.content.Intent
 import android.net.Uri
@@ -10,14 +10,14 @@ import org.fossify.commons.extensions.normalizePhoneNumber
 import org.fossify.commons.extensions.sendEmailIntent
 import org.fossify.commons.extensions.viewBinding
 import org.fossify.commons.helpers.NavigationIcon
-import org.fossify.messages.R
-import org.fossify.messages.adapters.VCardViewerAdapter
-import org.fossify.messages.databinding.ActivityVcardViewerBinding
-import org.fossify.messages.extensions.dialNumber
-import org.fossify.messages.helpers.EXTRA_VCARD_URI
-import org.fossify.messages.helpers.parseVCardFromUri
-import org.fossify.messages.models.VCardPropertyWrapper
-import org.fossify.messages.models.VCardWrapper
+import com.kosherlabs.koshertext.R
+import com.kosherlabs.koshertext.adapters.VCardViewerAdapter
+import com.kosherlabs.koshertext.databinding.ActivityVcardViewerBinding
+import com.kosherlabs.koshertext.extensions.dialNumber
+import com.kosherlabs.koshertext.helpers.EXTRA_VCARD_URI
+import com.kosherlabs.koshertext.helpers.parseVCardFromUri
+import com.kosherlabs.koshertext.models.VCardPropertyWrapper
+import com.kosherlabs.koshertext.models.VCardWrapper
 
 class VCardViewerActivity : SimpleActivity() {
 

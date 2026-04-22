@@ -1,4 +1,4 @@
-package org.fossify.messages.messaging
+package com.kosherlabs.koshertext.messaging
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -15,14 +15,14 @@ import com.klinker.android.send_message.Settings
 import com.klinker.android.send_message.Transaction
 import org.fossify.commons.extensions.showErrorToast
 import org.fossify.commons.extensions.toast
-import org.fossify.messages.R
-import org.fossify.messages.extensions.getThreadId
-import org.fossify.messages.extensions.isPlainTextMimeType
-import org.fossify.messages.extensions.smsSender
-import org.fossify.messages.messaging.SmsException.Companion.ERROR_PERSISTING_MESSAGE
-import org.fossify.messages.models.Attachment
-import org.fossify.messages.receivers.MmsSentReceiver
-import org.fossify.messages.receivers.SendStatusReceiver
+import com.kosherlabs.koshertext.R
+import com.kosherlabs.koshertext.extensions.getThreadId
+import com.kosherlabs.koshertext.extensions.isPlainTextMimeType
+import com.kosherlabs.koshertext.extensions.smsSender
+import com.kosherlabs.koshertext.messaging.SmsException.Companion.ERROR_PERSISTING_MESSAGE
+import com.kosherlabs.koshertext.models.Attachment
+import com.kosherlabs.koshertext.receivers.MmsSentReceiver
+import com.kosherlabs.koshertext.receivers.SendStatusReceiver
 
 class MessagingUtils(val context: Context) {
 

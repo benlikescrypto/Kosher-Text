@@ -1,4 +1,4 @@
-package org.fossify.messages.extensions
+package com.kosherlabs.koshertext.extensions
 
 import android.app.Activity
 import android.content.ActivityNotFoundException
@@ -19,8 +19,8 @@ import org.fossify.commons.helpers.PERMISSION_CALL_PHONE
 import org.fossify.commons.helpers.SimpleContactsHelper
 import org.fossify.commons.helpers.ensureBackgroundThread
 import org.fossify.commons.models.SimpleContact
-import org.fossify.messages.activities.ConversationDetailsActivity
-import org.fossify.messages.helpers.THREAD_ID
+import com.kosherlabs.koshertext.activities.ConversationDetailsActivity
+import com.kosherlabs.koshertext.helpers.THREAD_ID
 import java.util.Locale
 
 fun BaseSimpleActivity.dialNumber(phoneNumber: String, callback: (() -> Unit)? = null) {

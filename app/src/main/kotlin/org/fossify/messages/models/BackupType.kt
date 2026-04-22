@@ -1,4 +1,4 @@
-package org.fossify.messages.models
+package com.kosherlabs.koshertext.models
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

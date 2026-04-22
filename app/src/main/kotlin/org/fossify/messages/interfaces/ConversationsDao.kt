@@ -1,11 +1,11 @@
-package org.fossify.messages.interfaces
+package com.kosherlabs.koshertext.interfaces
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import org.fossify.messages.models.Conversation
-import org.fossify.messages.models.ConversationWithSnippetOverride
+import com.kosherlabs.koshertext.models.Conversation
+import com.kosherlabs.koshertext.models.ConversationWithSnippetOverride
 
 @Dao
 interface ConversationsDao {

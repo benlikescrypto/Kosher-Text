@@ -1,4 +1,4 @@
-package org.fossify.messages.models
+package com.kosherlabs.koshertext.models
 
 import android.content.ContentValues
 import android.provider.Telephony

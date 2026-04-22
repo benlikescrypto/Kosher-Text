@@ -1,4 +1,4 @@
-package org.fossify.messages.messaging
+package com.kosherlabs.koshertext.messaging
 
 import android.telephony.SmsManager
 import com.klinker.android.send_message.Settings

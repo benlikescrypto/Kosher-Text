@@ -1,8 +1,8 @@
-package org.fossify.messages.interfaces
+package com.kosherlabs.koshertext.interfaces
 
 import androidx.room.Dao
 import androidx.room.Query
-import org.fossify.messages.models.MessageAttachment
+import com.kosherlabs.koshertext.models.MessageAttachment
 
 @Dao
 interface MessageAttachmentsDao {

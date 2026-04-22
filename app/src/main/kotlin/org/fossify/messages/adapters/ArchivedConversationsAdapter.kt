@@ -1,16 +1,16 @@
-package org.fossify.messages.adapters
+package com.kosherlabs.koshertext.adapters
 
 import android.view.Menu
 import org.fossify.commons.dialogs.ConfirmationDialog
 import org.fossify.commons.extensions.notificationManager
 import org.fossify.commons.helpers.ensureBackgroundThread
 import org.fossify.commons.views.MyRecyclerView
-import org.fossify.messages.R
-import org.fossify.messages.activities.SimpleActivity
-import org.fossify.messages.extensions.deleteConversation
-import org.fossify.messages.extensions.updateConversationArchivedStatus
-import org.fossify.messages.helpers.refreshConversations
-import org.fossify.messages.models.Conversation
+import com.kosherlabs.koshertext.R
+import com.kosherlabs.koshertext.activities.SimpleActivity
+import com.kosherlabs.koshertext.extensions.deleteConversation
+import com.kosherlabs.koshertext.extensions.updateConversationArchivedStatus
+import com.kosherlabs.koshertext.helpers.refreshConversations
+import com.kosherlabs.koshertext.models.Conversation
 
 class ArchivedConversationsAdapter(
     activity: SimpleActivity, recyclerView: MyRecyclerView, onRefresh: () -> Unit, itemClick: (Any) -> Unit

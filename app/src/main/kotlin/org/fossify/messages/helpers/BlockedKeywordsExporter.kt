@@ -1,4 +1,4 @@
-package org.fossify.messages.helpers
+package com.kosherlabs.koshertext.helpers
 
 import org.fossify.commons.helpers.ExportResult
 import java.io.OutputStream

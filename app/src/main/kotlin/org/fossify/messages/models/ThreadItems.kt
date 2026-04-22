@@ -1,4 +1,4 @@
-package org.fossify.messages.models
+package com.kosherlabs.koshertext.models
 
 /**
  * Thread item representations for the main thread recyclerview. [Message] is also a [ThreadItem]

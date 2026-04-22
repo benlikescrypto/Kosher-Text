@@ -1,7 +1,7 @@
-package org.fossify.messages.activities
+package com.kosherlabs.koshertext.activities
 
 import org.fossify.commons.activities.BaseSimpleActivity
-import org.fossify.messages.R
+import com.kosherlabs.koshertext.R
 
 open class SimpleActivity : BaseSimpleActivity() {
     override fun getAppIconIDs() = arrayListOf(

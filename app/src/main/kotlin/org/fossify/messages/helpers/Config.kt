@@ -1,9 +1,9 @@
-package org.fossify.messages.helpers
+package com.kosherlabs.koshertext.helpers
 
 import android.content.Context
 import org.fossify.commons.helpers.BaseConfig
-import org.fossify.messages.extensions.getDefaultKeyboardHeight
-import org.fossify.messages.models.Conversation
+import com.kosherlabs.koshertext.extensions.getDefaultKeyboardHeight
+import com.kosherlabs.koshertext.models.Conversation
 
 class Config(context: Context) : BaseConfig(context) {
     companion object {

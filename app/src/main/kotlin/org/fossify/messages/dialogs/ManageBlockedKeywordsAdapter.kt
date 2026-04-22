@@ -1,4 +1,4 @@
-package org.fossify.messages.dialogs
+package com.kosherlabs.koshertext.dialogs
 
 import android.view.*
 import androidx.appcompat.widget.PopupMenu
@@ -10,9 +10,9 @@ import org.fossify.commons.extensions.getProperTextColor
 import org.fossify.commons.extensions.setupViewBackground
 import org.fossify.commons.interfaces.RefreshRecyclerViewListener
 import org.fossify.commons.views.MyRecyclerView
-import org.fossify.messages.R
-import org.fossify.messages.databinding.ItemManageBlockedKeywordBinding
-import org.fossify.messages.extensions.config
+import com.kosherlabs.koshertext.R
+import com.kosherlabs.koshertext.databinding.ItemManageBlockedKeywordBinding
+import com.kosherlabs.koshertext.extensions.config
 
 class ManageBlockedKeywordsAdapter(
     activity: BaseSimpleActivity, var blockedKeywords: ArrayList<String>, val listener: RefreshRecyclerViewListener?,

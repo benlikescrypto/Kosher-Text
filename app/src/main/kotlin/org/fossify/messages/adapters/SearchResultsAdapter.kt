@@ -1,4 +1,4 @@
-package org.fossify.messages.adapters
+package com.kosherlabs.koshertext.adapters
 
 import android.util.TypedValue
 import android.view.Menu
@@ -10,9 +10,9 @@ import org.fossify.commons.extensions.getTextSize
 import org.fossify.commons.extensions.highlightTextPart
 import org.fossify.commons.helpers.SimpleContactsHelper
 import org.fossify.commons.views.MyRecyclerView
-import org.fossify.messages.activities.SimpleActivity
-import org.fossify.messages.databinding.ItemSearchResultBinding
-import org.fossify.messages.models.SearchResult
+import com.kosherlabs.koshertext.activities.SimpleActivity
+import com.kosherlabs.koshertext.databinding.ItemSearchResultBinding
+import com.kosherlabs.koshertext.models.SearchResult
 
 class SearchResultsAdapter(
     activity: SimpleActivity, var searchResults: ArrayList<SearchResult>, recyclerView: MyRecyclerView, highlightText: String, itemClick: (Any) -> Unit

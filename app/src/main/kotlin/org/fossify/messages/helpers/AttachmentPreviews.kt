@@ -1,4 +1,4 @@
-package org.fossify.messages.helpers
+package com.kosherlabs.koshertext.helpers
 
 import android.app.Activity
 import android.net.Uri
@@ -6,12 +6,12 @@ import android.view.View
 import org.fossify.commons.extensions.*
 import org.fossify.commons.helpers.SimpleContactsHelper
 import org.fossify.commons.helpers.ensureBackgroundThread
-import org.fossify.messages.R
-import org.fossify.messages.databinding.ItemAttachmentDocumentBinding
-import org.fossify.messages.databinding.ItemAttachmentDocumentPreviewBinding
-import org.fossify.messages.databinding.ItemAttachmentVcardBinding
-import org.fossify.messages.databinding.ItemAttachmentVcardPreviewBinding
-import org.fossify.messages.extensions.*
+import com.kosherlabs.koshertext.R
+import com.kosherlabs.koshertext.databinding.ItemAttachmentDocumentBinding
+import com.kosherlabs.koshertext.databinding.ItemAttachmentDocumentPreviewBinding
+import com.kosherlabs.koshertext.databinding.ItemAttachmentVcardBinding
+import com.kosherlabs.koshertext.databinding.ItemAttachmentVcardPreviewBinding
+import com.kosherlabs.koshertext.extensions.*
 
 fun ItemAttachmentDocumentPreviewBinding.setupDocumentPreview(
     uri: Uri,

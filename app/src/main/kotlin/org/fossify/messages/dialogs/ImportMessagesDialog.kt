@@ -1,4 +1,4 @@
-package org.fossify.messages.dialogs
+package com.kosherlabs.koshertext.dialogs
 
 import androidx.appcompat.app.AlertDialog
 import org.fossify.commons.extensions.getAlertDialogBuilder
@@ -7,13 +7,13 @@ import org.fossify.commons.extensions.setupDialogStuff
 import org.fossify.commons.extensions.toast
 import org.fossify.commons.helpers.MEDIUM_ALPHA
 import org.fossify.commons.helpers.ensureBackgroundThread
-import org.fossify.messages.R
-import org.fossify.messages.activities.SimpleActivity
-import org.fossify.messages.databinding.DialogImportMessagesBinding
-import org.fossify.messages.extensions.config
-import org.fossify.messages.helpers.MessagesImporter
-import org.fossify.messages.models.ImportResult
-import org.fossify.messages.models.MessagesBackup
+import com.kosherlabs.koshertext.R
+import com.kosherlabs.koshertext.activities.SimpleActivity
+import com.kosherlabs.koshertext.databinding.DialogImportMessagesBinding
+import com.kosherlabs.koshertext.extensions.config
+import com.kosherlabs.koshertext.helpers.MessagesImporter
+import com.kosherlabs.koshertext.models.ImportResult
+import com.kosherlabs.koshertext.models.MessagesBackup
 
 class ImportMessagesDialog(
     private val activity: SimpleActivity,

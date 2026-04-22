@@ -1,4 +1,4 @@
-package org.fossify.messages.helpers
+package com.kosherlabs.koshertext.helpers
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -9,10 +9,10 @@ import android.net.Uri
 import org.fossify.commons.extensions.getCompressionFormat
 import org.fossify.commons.extensions.getMyFileUri
 import org.fossify.commons.helpers.ensureBackgroundThread
-import org.fossify.messages.extensions.extension
-import org.fossify.messages.extensions.getExtensionFromMimeType
-import org.fossify.messages.extensions.getFileSizeFromUri
-import org.fossify.messages.extensions.isImageMimeType
+import com.kosherlabs.koshertext.extensions.extension
+import com.kosherlabs.koshertext.extensions.getExtensionFromMimeType
+import com.kosherlabs.koshertext.extensions.getFileSizeFromUri
+import com.kosherlabs.koshertext.extensions.isImageMimeType
 import java.io.File
 import java.io.FileOutputStream
 import kotlin.math.roundToInt

@@ -1,4 +1,4 @@
-package org.fossify.messages.activities
+package com.kosherlabs.koshertext.activities
 
 import android.content.Intent
 import android.net.Uri
@@ -33,20 +33,20 @@ import org.fossify.commons.helpers.PERMISSION_READ_CONTACTS
 import org.fossify.commons.helpers.SimpleContactsHelper
 import org.fossify.commons.helpers.ensureBackgroundThread
 import org.fossify.commons.models.SimpleContact
-import org.fossify.messages.R
-import org.fossify.messages.adapters.ContactsAdapter
-import org.fossify.messages.databinding.ActivityNewConversationBinding
-import org.fossify.messages.databinding.ItemSuggestedContactBinding
-import org.fossify.messages.extensions.getSuggestedContacts
-import org.fossify.messages.extensions.getThreadId
-import org.fossify.messages.helpers.SmsIntentParser
-import org.fossify.messages.helpers.THREAD_ATTACHMENT_URI
-import org.fossify.messages.helpers.THREAD_ATTACHMENT_URIS
-import org.fossify.messages.helpers.THREAD_ID
-import org.fossify.messages.helpers.THREAD_NUMBER
-import org.fossify.messages.helpers.THREAD_TEXT
-import org.fossify.messages.helpers.THREAD_TITLE
-import org.fossify.messages.messaging.isShortCodeWithLetters
+import com.kosherlabs.koshertext.R
+import com.kosherlabs.koshertext.adapters.ContactsAdapter
+import com.kosherlabs.koshertext.databinding.ActivityNewConversationBinding
+import com.kosherlabs.koshertext.databinding.ItemSuggestedContactBinding
+import com.kosherlabs.koshertext.extensions.getSuggestedContacts
+import com.kosherlabs.koshertext.extensions.getThreadId
+import com.kosherlabs.koshertext.helpers.SmsIntentParser
+import com.kosherlabs.koshertext.helpers.THREAD_ATTACHMENT_URI
+import com.kosherlabs.koshertext.helpers.THREAD_ATTACHMENT_URIS
+import com.kosherlabs.koshertext.helpers.THREAD_ID
+import com.kosherlabs.koshertext.helpers.THREAD_NUMBER
+import com.kosherlabs.koshertext.helpers.THREAD_TEXT
+import com.kosherlabs.koshertext.helpers.THREAD_TITLE
+import com.kosherlabs.koshertext.messaging.isShortCodeWithLetters
 import java.net.URLDecoder
 import java.util.Locale
 

@@ -1,4 +1,4 @@
-package org.fossify.messages.activities
+package com.kosherlabs.koshertext.activities
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -13,16 +13,16 @@ import org.fossify.commons.extensions.hideKeyboard
 import org.fossify.commons.extensions.viewBinding
 import org.fossify.commons.helpers.NavigationIcon
 import org.fossify.commons.helpers.ensureBackgroundThread
-import org.fossify.messages.R
-import org.fossify.messages.adapters.ArchivedConversationsAdapter
-import org.fossify.messages.databinding.ActivityArchivedConversationsBinding
-import org.fossify.messages.extensions.config
-import org.fossify.messages.extensions.conversationsDB
-import org.fossify.messages.extensions.removeAllArchivedConversations
-import org.fossify.messages.helpers.THREAD_ID
-import org.fossify.messages.helpers.THREAD_TITLE
-import org.fossify.messages.models.Conversation
-import org.fossify.messages.models.Events
+import com.kosherlabs.koshertext.R
+import com.kosherlabs.koshertext.adapters.ArchivedConversationsAdapter
+import com.kosherlabs.koshertext.databinding.ActivityArchivedConversationsBinding
+import com.kosherlabs.koshertext.extensions.config
+import com.kosherlabs.koshertext.extensions.conversationsDB
+import com.kosherlabs.koshertext.extensions.removeAllArchivedConversations
+import com.kosherlabs.koshertext.helpers.THREAD_ID
+import com.kosherlabs.koshertext.helpers.THREAD_TITLE
+import com.kosherlabs.koshertext.models.Conversation
+import com.kosherlabs.koshertext.models.Events
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode

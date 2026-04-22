@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    package="com.kosherlabs.koshertext"
     android:installLocation="auto">
 
     <uses-permission android:name="android.permission.READ_SMS" />
@@ -217,7 +218,7 @@
             android:enabled="true"
             android:exported="true">
             <intent-filter>
-                <action android:name="org.fossify.messages.action.mark_as_read" />
+                <action android:name="com.kosherlabs.koshertext.action.mark_as_read" />
             </intent-filter>
         </receiver>
 
@@ -226,7 +227,7 @@
             android:enabled="true"
             android:exported="true">
             <intent-filter>
-                <action android:name="org.fossify.messages.action.reply" />
+                <action android:name="com.kosherlabs.koshertext.action.reply" />
             </intent-filter>
         </receiver>
 
@@ -235,7 +236,7 @@
             android:enabled="true"
             android:exported="true">
             <intent-filter>
-                <action android:name="org.fossify.messages.action.delete" />
+                <action android:name="com.kosherlabs.koshertext.action.delete" />
             </intent-filter>
         </receiver>
 

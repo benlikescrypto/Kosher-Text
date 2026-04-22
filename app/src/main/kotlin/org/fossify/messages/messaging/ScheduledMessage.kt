@@ -1,14 +1,14 @@
-package org.fossify.messages.messaging
+package com.kosherlabs.koshertext.messaging
 
 import android.app.AlarmManager
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
 import androidx.core.app.AlarmManagerCompat
-import org.fossify.messages.helpers.SCHEDULED_MESSAGE_ID
-import org.fossify.messages.helpers.THREAD_ID
-import org.fossify.messages.models.Message
-import org.fossify.messages.receivers.ScheduledMessageReceiver
+import com.kosherlabs.koshertext.helpers.SCHEDULED_MESSAGE_ID
+import com.kosherlabs.koshertext.helpers.THREAD_ID
+import com.kosherlabs.koshertext.models.Message
+import com.kosherlabs.koshertext.receivers.ScheduledMessageReceiver
 
 /**
  * All things related to scheduled messages are here.

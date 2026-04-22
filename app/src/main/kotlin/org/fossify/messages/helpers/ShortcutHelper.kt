@@ -1,4 +1,4 @@
-package org.fossify.messages.helpers
+package com.kosherlabs.koshertext.helpers
 
 import android.content.Context
 import android.content.Intent
@@ -13,11 +13,11 @@ import org.fossify.commons.helpers.MyContactsContentProvider
 import org.fossify.commons.helpers.SimpleContactsHelper
 import org.fossify.commons.helpers.isOnMainThread
 import org.fossify.commons.models.SimpleContact
-import org.fossify.messages.activities.ThreadActivity
-import org.fossify.messages.extensions.conversationsDB
-import org.fossify.messages.extensions.getThreadParticipants
-import org.fossify.messages.extensions.toPerson
-import org.fossify.messages.models.Conversation
+import com.kosherlabs.koshertext.activities.ThreadActivity
+import com.kosherlabs.koshertext.extensions.conversationsDB
+import com.kosherlabs.koshertext.extensions.getThreadParticipants
+import com.kosherlabs.koshertext.extensions.toPerson
+import com.kosherlabs.koshertext.models.Conversation
 
 
 class ShortcutHelper(private val context: Context) {

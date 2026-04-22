@@ -1,4 +1,4 @@
-package org.fossify.messages.helpers
+package com.kosherlabs.koshertext.helpers
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -13,12 +13,12 @@ import org.fossify.commons.extensions.getStringValueOrNull
 import org.fossify.commons.extensions.queryCursor
 import org.fossify.commons.helpers.isQPlus
 import org.fossify.commons.helpers.isRPlus
-import org.fossify.messages.extensions.getConversationIds
-import org.fossify.messages.models.MessagesBackup
-import org.fossify.messages.models.MmsAddress
-import org.fossify.messages.models.MmsBackup
-import org.fossify.messages.models.MmsPart
-import org.fossify.messages.models.SmsBackup
+import com.kosherlabs.koshertext.extensions.getConversationIds
+import com.kosherlabs.koshertext.models.MessagesBackup
+import com.kosherlabs.koshertext.models.MmsAddress
+import com.kosherlabs.koshertext.models.MmsBackup
+import com.kosherlabs.koshertext.models.MmsPart
+import com.kosherlabs.koshertext.models.SmsBackup
 import java.io.IOException
 import java.io.InputStream
 

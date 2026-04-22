@@ -1,4 +1,4 @@
-package org.fossify.messages.helpers
+package com.kosherlabs.koshertext.helpers
 
 import android.util.Xml
 import org.xmlpull.v1.XmlPullParser

@@ -1,4 +1,4 @@
-package org.fossify.messages.activities
+package com.kosherlabs.koshertext.activities
 
 import android.content.ActivityNotFoundException
 import android.net.Uri
@@ -17,15 +17,15 @@ import org.fossify.commons.helpers.ExportResult
 import org.fossify.commons.helpers.NavigationIcon
 import org.fossify.commons.helpers.ensureBackgroundThread
 import org.fossify.commons.interfaces.RefreshRecyclerViewListener
-import org.fossify.messages.R
-import org.fossify.messages.databinding.ActivityManageBlockedKeywordsBinding
-import org.fossify.messages.dialogs.AddBlockedKeywordDialog
-import org.fossify.messages.dialogs.ExportBlockedKeywordsDialog
-import org.fossify.messages.dialogs.ManageBlockedKeywordsAdapter
-import org.fossify.messages.extensions.config
-import org.fossify.messages.extensions.toArrayList
-import org.fossify.messages.helpers.BlockedKeywordsExporter
-import org.fossify.messages.helpers.BlockedKeywordsImporter
+import com.kosherlabs.koshertext.R
+import com.kosherlabs.koshertext.databinding.ActivityManageBlockedKeywordsBinding
+import com.kosherlabs.koshertext.dialogs.AddBlockedKeywordDialog
+import com.kosherlabs.koshertext.dialogs.ExportBlockedKeywordsDialog
+import com.kosherlabs.koshertext.dialogs.ManageBlockedKeywordsAdapter
+import com.kosherlabs.koshertext.extensions.config
+import com.kosherlabs.koshertext.extensions.toArrayList
+import com.kosherlabs.koshertext.helpers.BlockedKeywordsExporter
+import com.kosherlabs.koshertext.helpers.BlockedKeywordsImporter
 import java.io.FileOutputStream
 import java.io.OutputStream
 

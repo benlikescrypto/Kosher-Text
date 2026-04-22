@@ -1,4 +1,4 @@
-package org.fossify.messages.adapters
+package com.kosherlabs.koshertext.adapters
 
 import android.content.Intent
 import android.text.TextUtils
@@ -14,20 +14,20 @@ import org.fossify.commons.extensions.notificationManager
 import org.fossify.commons.helpers.KEY_PHONE
 import org.fossify.commons.helpers.ensureBackgroundThread
 import org.fossify.commons.views.MyRecyclerView
-import org.fossify.messages.R
-import org.fossify.messages.activities.SimpleActivity
-import org.fossify.messages.dialogs.RenameConversationDialog
-import org.fossify.messages.extensions.config
-import org.fossify.messages.extensions.deleteConversation
-import org.fossify.messages.extensions.dialNumber
-import org.fossify.messages.extensions.launchConversationDetails
-import org.fossify.messages.extensions.markThreadMessagesRead
-import org.fossify.messages.extensions.markThreadMessagesUnread
-import org.fossify.messages.extensions.renameConversation
-import org.fossify.messages.extensions.updateConversationArchivedStatus
-import org.fossify.messages.helpers.refreshConversations
-import org.fossify.messages.messaging.isShortCodeWithLetters
-import org.fossify.messages.models.Conversation
+import com.kosherlabs.koshertext.R
+import com.kosherlabs.koshertext.activities.SimpleActivity
+import com.kosherlabs.koshertext.dialogs.RenameConversationDialog
+import com.kosherlabs.koshertext.extensions.config
+import com.kosherlabs.koshertext.extensions.deleteConversation
+import com.kosherlabs.koshertext.extensions.dialNumber
+import com.kosherlabs.koshertext.extensions.launchConversationDetails
+import com.kosherlabs.koshertext.extensions.markThreadMessagesRead
+import com.kosherlabs.koshertext.extensions.markThreadMessagesUnread
+import com.kosherlabs.koshertext.extensions.renameConversation
+import com.kosherlabs.koshertext.extensions.updateConversationArchivedStatus
+import com.kosherlabs.koshertext.helpers.refreshConversations
+import com.kosherlabs.koshertext.messaging.isShortCodeWithLetters
+import com.kosherlabs.koshertext.models.Conversation
 
 class ConversationsAdapter(
     activity: SimpleActivity,

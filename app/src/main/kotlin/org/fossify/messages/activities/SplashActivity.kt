@@ -1,4 +1,4 @@
-package org.fossify.messages.activities
+package com.kosherlabs.koshertext.activities
 
 import android.content.Intent
 import org.fossify.commons.activities.BaseSplashActivity

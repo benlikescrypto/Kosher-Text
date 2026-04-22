@@ -1,4 +1,4 @@
-package org.fossify.messages.helpers
+package com.kosherlabs.koshertext.helpers
 
 import android.annotation.SuppressLint
 import android.app.Notification
@@ -18,14 +18,14 @@ import org.fossify.commons.extensions.getProperPrimaryColor
 import org.fossify.commons.extensions.notificationManager
 import org.fossify.commons.helpers.SimpleContactsHelper
 import org.fossify.commons.helpers.ensureBackgroundThread
-import org.fossify.messages.R
-import org.fossify.messages.activities.ThreadActivity
-import org.fossify.messages.extensions.config
-import org.fossify.messages.extensions.shortcutHelper
-import org.fossify.messages.messaging.isShortCodeWithLetters
-import org.fossify.messages.receivers.DeleteSmsReceiver
-import org.fossify.messages.receivers.DirectReplyReceiver
-import org.fossify.messages.receivers.MarkAsReadReceiver
+import com.kosherlabs.koshertext.R
+import com.kosherlabs.koshertext.activities.ThreadActivity
+import com.kosherlabs.koshertext.extensions.config
+import com.kosherlabs.koshertext.extensions.shortcutHelper
+import com.kosherlabs.koshertext.messaging.isShortCodeWithLetters
+import com.kosherlabs.koshertext.receivers.DeleteSmsReceiver
+import com.kosherlabs.koshertext.receivers.DirectReplyReceiver
+import com.kosherlabs.koshertext.receivers.MarkAsReadReceiver
 
 class NotificationHelper(private val context: Context) {
 

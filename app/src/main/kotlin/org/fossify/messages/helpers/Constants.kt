@@ -1,6 +1,6 @@
-package org.fossify.messages.helpers
+package com.kosherlabs.koshertext.helpers
 
-import org.fossify.messages.models.Events
+import com.kosherlabs.koshertext.models.Events
 import org.greenrobot.eventbus.EventBus
 import org.joda.time.DateTime
 import org.joda.time.DateTimeZone
@@ -49,7 +49,7 @@ const val CUSTOM_NOTIFICATIONS = "custom_notifications"
 const val IS_LAUNCHED_FROM_SHORTCUT = "is_launched_from_shortcut"
 const val KEEP_CONVERSATIONS_ARCHIVED = "keep_conversations_archived"
 
-private const val PATH = "org.fossify.org.fossify.messages.action."
+private const val PATH = "org.fossify.com.kosherlabs.koshertext.action."
 const val MARK_AS_READ = PATH + "mark_as_read"
 const val REPLY = PATH + "reply"
 

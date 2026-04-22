@@ -1,9 +1,9 @@
-package org.fossify.messages.dialogs
+package com.kosherlabs.koshertext.dialogs
 
 import org.fossify.commons.activities.BaseSimpleActivity
 import org.fossify.commons.extensions.getAlertDialogBuilder
 import org.fossify.commons.extensions.setupDialogStuff
-import org.fossify.messages.databinding.DialogInvalidNumberBinding
+import com.kosherlabs.koshertext.databinding.DialogInvalidNumberBinding
 
 class InvalidNumberDialog(val activity: BaseSimpleActivity, val text: String) {
     init {

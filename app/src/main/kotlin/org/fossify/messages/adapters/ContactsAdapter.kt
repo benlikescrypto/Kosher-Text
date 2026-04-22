@@ -1,4 +1,4 @@
-package org.fossify.messages.adapters
+package com.kosherlabs.koshertext.adapters
 
 import android.text.TextUtils
 import android.util.TypedValue
@@ -12,7 +12,7 @@ import org.fossify.commons.extensions.getTextSize
 import org.fossify.commons.helpers.SimpleContactsHelper
 import org.fossify.commons.models.SimpleContact
 import org.fossify.commons.views.MyRecyclerView
-import org.fossify.messages.activities.SimpleActivity
+import com.kosherlabs.koshertext.activities.SimpleActivity
 
 class ContactsAdapter(
     activity: SimpleActivity, var contacts: ArrayList<SimpleContact>, recyclerView: MyRecyclerView, itemClick: (Any) -> Unit

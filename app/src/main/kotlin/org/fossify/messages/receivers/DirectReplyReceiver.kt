@@ -1,4 +1,4 @@
-package org.fossify.messages.receivers
+package com.kosherlabs.koshertext.receivers
 
 import android.annotation.SuppressLint
 import android.content.BroadcastReceiver
@@ -10,11 +10,11 @@ import androidx.core.app.RemoteInput
 import org.fossify.commons.extensions.showErrorToast
 import org.fossify.commons.helpers.SimpleContactsHelper
 import org.fossify.commons.helpers.ensureBackgroundThread
-import org.fossify.messages.extensions.*
-import org.fossify.messages.helpers.REPLY
-import org.fossify.messages.helpers.THREAD_ID
-import org.fossify.messages.helpers.THREAD_NUMBER
-import org.fossify.messages.messaging.sendMessageCompat
+import com.kosherlabs.koshertext.extensions.*
+import com.kosherlabs.koshertext.helpers.REPLY
+import com.kosherlabs.koshertext.helpers.THREAD_ID
+import com.kosherlabs.koshertext.helpers.THREAD_NUMBER
+import com.kosherlabs.koshertext.messaging.sendMessageCompat
 
 class DirectReplyReceiver : BroadcastReceiver() {
     @SuppressLint("MissingPermission")

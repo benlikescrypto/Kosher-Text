@@ -1,4 +1,4 @@
-package org.fossify.messages.messaging
+package com.kosherlabs.koshertext.messaging
 
 import android.app.Application
 import android.app.PendingIntent
@@ -6,11 +6,11 @@ import android.content.Intent
 import android.net.Uri
 import android.telephony.PhoneNumberUtils
 import org.fossify.commons.helpers.isSPlus
-import org.fossify.messages.messaging.SmsException.Companion.EMPTY_DESTINATION_ADDRESS
-import org.fossify.messages.messaging.SmsException.Companion.ERROR_SENDING_MESSAGE
-import org.fossify.messages.receivers.SendStatusReceiver
-import org.fossify.messages.receivers.SmsStatusDeliveredReceiver
-import org.fossify.messages.receivers.SmsStatusSentReceiver
+import com.kosherlabs.koshertext.messaging.SmsException.Companion.EMPTY_DESTINATION_ADDRESS
+import com.kosherlabs.koshertext.messaging.SmsException.Companion.ERROR_SENDING_MESSAGE
+import com.kosherlabs.koshertext.receivers.SendStatusReceiver
+import com.kosherlabs.koshertext.receivers.SmsStatusDeliveredReceiver
+import com.kosherlabs.koshertext.receivers.SmsStatusSentReceiver
 
 /** Class that sends chat message via SMS. */
 class SmsSender(val app: Application) {

@@ -1,11 +1,11 @@
-package org.fossify.messages.helpers
+package com.kosherlabs.koshertext.helpers
 
 import androidx.room.TypeConverter
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import org.fossify.commons.models.SimpleContact
-import org.fossify.messages.models.Attachment
-import org.fossify.messages.models.MessageAttachment
+import com.kosherlabs.koshertext.models.Attachment
+import com.kosherlabs.koshertext.models.MessageAttachment
 
 class Converters {
     private val gson = Gson()

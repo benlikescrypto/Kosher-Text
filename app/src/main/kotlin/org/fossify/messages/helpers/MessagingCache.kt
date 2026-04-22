@@ -1,8 +1,8 @@
-package org.fossify.messages.helpers
+package com.kosherlabs.koshertext.helpers
 
 import android.util.LruCache
 import org.fossify.commons.models.SimpleContact
-import org.fossify.messages.models.NamePhoto
+import com.kosherlabs.koshertext.models.NamePhoto
 
 private const val CACHE_SIZE = 512
 

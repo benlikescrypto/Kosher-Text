@@ -1,4 +1,4 @@
-package org.fossify.messages.dialogs
+package com.kosherlabs.koshertext.dialogs
 
 import android.app.Activity
 import android.content.DialogInterface.BUTTON_POSITIVE
@@ -7,9 +7,9 @@ import org.fossify.commons.extensions.getAlertDialogBuilder
 import org.fossify.commons.extensions.setupDialogStuff
 import org.fossify.commons.extensions.showKeyboard
 import org.fossify.commons.extensions.toast
-import org.fossify.messages.R
-import org.fossify.messages.databinding.DialogRenameConversationBinding
-import org.fossify.messages.models.Conversation
+import com.kosherlabs.koshertext.R
+import com.kosherlabs.koshertext.databinding.DialogRenameConversationBinding
+import com.kosherlabs.koshertext.models.Conversation
 
 class RenameConversationDialog(
     private val activity: Activity,

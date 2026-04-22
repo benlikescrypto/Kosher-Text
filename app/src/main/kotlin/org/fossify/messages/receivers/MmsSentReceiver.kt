@@ -1,4 +1,4 @@
-package org.fossify.messages.receivers
+package com.kosherlabs.koshertext.receivers
 
 import android.app.Activity
 import android.content.ContentValues
@@ -10,10 +10,10 @@ import android.provider.Telephony
 import android.widget.Toast
 import org.fossify.commons.extensions.showErrorToast
 import org.fossify.commons.extensions.toast
-import org.fossify.messages.R
-import org.fossify.messages.extensions.deleteMessage
-import org.fossify.messages.helpers.refreshConversations
-import org.fossify.messages.helpers.refreshMessages
+import com.kosherlabs.koshertext.R
+import com.kosherlabs.koshertext.extensions.deleteMessage
+import com.kosherlabs.koshertext.helpers.refreshConversations
+import com.kosherlabs.koshertext.helpers.refreshMessages
 import java.io.File
 
 /** Handles updating databases and states when a MMS message is sent. */

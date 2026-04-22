@@ -1,8 +1,8 @@
-package org.fossify.messages.helpers
+package com.kosherlabs.koshertext.helpers
 
 import android.app.Activity
 import org.fossify.commons.extensions.showErrorToast
-import org.fossify.messages.extensions.config
+import com.kosherlabs.koshertext.extensions.config
 
 import java.io.File
 

@@ -1,4 +1,4 @@
-package org.fossify.messages.extensions
+package com.kosherlabs.koshertext.extensions
 
 fun String.getExtensionFromMimeType(): String {
     return when (lowercase()) {

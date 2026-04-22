@@ -1,4 +1,4 @@
-package org.fossify.messages.adapters
+package com.kosherlabs.koshertext.adapters
 
 import android.util.TypedValue
 import android.view.ViewGroup
@@ -11,12 +11,12 @@ import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import com.bumptech.glide.request.RequestOptions
 import org.fossify.commons.extensions.*
 import org.fossify.commons.helpers.SimpleContactsHelper
-import org.fossify.messages.R
-import org.fossify.messages.activities.SimpleActivity
-import org.fossify.messages.databinding.ItemVcardContactBinding
-import org.fossify.messages.databinding.ItemVcardContactPropertyBinding
-import org.fossify.messages.models.VCardPropertyWrapper
-import org.fossify.messages.models.VCardWrapper
+import com.kosherlabs.koshertext.R
+import com.kosherlabs.koshertext.activities.SimpleActivity
+import com.kosherlabs.koshertext.databinding.ItemVcardContactBinding
+import com.kosherlabs.koshertext.databinding.ItemVcardContactPropertyBinding
+import com.kosherlabs.koshertext.models.VCardPropertyWrapper
+import com.kosherlabs.koshertext.models.VCardWrapper
 
 private const val TYPE_VCARD_CONTACT = 1
 private const val TYPE_VCARD_CONTACT_PROPERTY = 2
