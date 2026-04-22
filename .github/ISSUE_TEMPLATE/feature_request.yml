@@ -9,16 +9,14 @@ body:
         Thanks for helping us improve **Kosher Text** by suggesting a feature!
         Please fill in as much information as possible about your feature request to avoid unnecessary and time-consuming back-and-forth communication.
 
-        **Maintainers:** replace every `OWNER/REPO` in this form with your GitHub path after the repository exists.
-
   - type: checkboxes
     id: checklist
     attributes:
       label: "Checklist"
       options:
-        - label: "I checked for duplicate feature requests ([open](https://github.com/OWNER/REPO/issues), [closed](https://github.com/OWNER/REPO/issues?q=is%3Aissue+is%3Aclosed))."
+        - label: "I checked for duplicate feature requests ([open](https://github.com/benlikescrypto/Kosher-Text/issues), [closed](https://github.com/benlikescrypto/Kosher-Text/issues?q=is%3Aissue+is%3Aclosed))."
           required: true
-        - label: "I checked [Discussions](https://github.com/OWNER/REPO/discussions), if they are enabled."
+        - label: "I checked [Discussions](https://github.com/benlikescrypto/Kosher-Text/discussions), if they are enabled."
           required: true
         - label: "I have read the FAQs inside the app (Menu -> About -> FAQs) and my problem isn't listed."
           required: true
@@ -26,7 +24,7 @@ body:
           required: true
         - label: "This issue contains only one feature request."
           required: true
-        - label: "I have read the [contribution guidelines](https://github.com/OWNER/REPO/blob/master/CONTRIBUTING.md)."
+        - label: "I have read the [contribution guidelines](https://github.com/benlikescrypto/Kosher-Text/blob/master/CONTRIBUTING.md)."
           required: true
 
   - type: textarea

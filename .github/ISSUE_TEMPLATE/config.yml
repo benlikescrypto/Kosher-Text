@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
   - name: Questions
-    url: https://github.com/OWNER/REPO/discussions
-    about: "Ask in Discussions (after you replace `OWNER/REPO` in this file with your GitHub path, or set up Discussions in your repo and update this link)."
+    url: https://github.com/benlikescrypto/Kosher-Text/discussions
+    about: Ask in GitHub Discussions (enable Discussions in the repository settings if this link is not available yet).
