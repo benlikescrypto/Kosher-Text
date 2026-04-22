@@ -42,6 +42,7 @@ import org.fossify.commons.extensions.getTimeFormat
 import org.fossify.commons.extensions.shareTextIntent
 import org.fossify.commons.extensions.showErrorToast
 import org.fossify.commons.extensions.usableScreenSize
+import org.fossify.commons.extensions.toast
 import org.fossify.commons.helpers.FontHelper
 import org.fossify.commons.helpers.SimpleContactsHelper
 import org.fossify.commons.helpers.ensureBackgroundThread
@@ -396,12 +397,9 @@ class ThreadAdapter(
                         mimetype.isVCardMimeType() -> setupVCardView(holder, threadMessageAttachmentsHolder, message, attachment)
                         else -> setupFileView(holder, threadMessageAttachmentsHolder, message, attachment)
                     }
-
-                    threadMessagePlayOutline.beVisibleIf(mimetype.startsWith("video/"))
                 }
             } else {
                 threadMessageAttachmentsHolder.beGone()
-                threadMessagePlayOutline.beGone()
             }
         }
     }
@@ -493,9 +491,11 @@ class ThreadAdapter(
     private fun setupImageView(holder: ViewHolder, binding: ItemMessageBinding, message: Message, attachment: Attachment) = binding.apply {
         val mimetype = attachment.mimetype
         val uri = attachment.getUri()
+        val isReceivedVideo = message.isReceivedMessage() && mimetype.isVideoMimeType()
 
         val imageView = ItemAttachmentImageBinding.inflate(layoutInflater)
         threadMessageAttachmentsHolder.addView(imageView.root)
+        imageView.attachmentPlayIcon.beVisibleIf(mimetype.isVideoMimeType())
 
         val placeholderDrawable = Color.TRANSPARENT.toDrawable()
         val options = RequestOptions()
@@ -528,6 +528,8 @@ class ThreadAdapter(
         imageView.attachmentImage.setOnClickListener {
             if (actModeCallback.isSelectable) {
                 holder.viewClicked(message)
+            } else if (isReceivedVideo) {
+                activity.toast(R.string.video_playback_disabled)
             } else {
                 activity.launchViewIntent(uri, mimetype, attachment.filename)
             }

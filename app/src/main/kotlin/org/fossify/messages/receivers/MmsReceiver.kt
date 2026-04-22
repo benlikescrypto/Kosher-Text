@@ -60,13 +60,16 @@ class MmsReceiver : MmsReceivedReceiver() {
         size: Int,
         address: String
     ) {
+        val firstAttachmentUri = mms.attachment?.attachments?.firstOrNull()?.getUri()
         val glideBitmap = try {
-            Glide.with(context)
-                .asBitmap()
-                .load(mms.attachment!!.attachments.first().getUri())
-                .centerCrop()
-                .into(size, size)
-                .get()
+            firstAttachmentUri?.let {
+                Glide.with(context)
+                    .asBitmap()
+                    .load(it)
+                    .centerCrop()
+                    .into(size, size)
+                    .get()
+            }
         } catch (e: Exception) {
             null
         }

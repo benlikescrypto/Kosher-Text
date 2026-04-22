@@ -20,7 +20,7 @@ fun String.isGifMimeType(): Boolean {
 }
 
 fun String.isVideoMimeType(): Boolean {
-    return lowercase().startsWith("video")
+    return lowercase().startsWith("video/")
 }
 
 fun String.isVCardMimeType(): Boolean {

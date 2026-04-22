@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.material.imageview.ShapeableImageView xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/attachment_image"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:adjustViewBounds="true"
-    app:shapeAppearanceOverlay="@style/roundedImageView" />
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/attachment_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        app:shapeAppearanceOverlay="@style/roundedImageView" />
+
+    <ImageView
+        android:id="@+id/attachment_play_icon"
+        android:layout_width="@dimen/play_outline_size"
+        android:layout_height="@dimen/play_outline_size"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_play_outline_vector"
+        android:visibility="gone" />
+</FrameLayout>

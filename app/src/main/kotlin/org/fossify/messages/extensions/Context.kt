@@ -518,7 +518,24 @@ fun Context.getMmsAttachment(id: Long): MessageAttachment {
                 .getStringValue(Mms.Part.TEXT)
                 ?.take(MAX_MESSAGE_LENGTH)
                 .orEmpty()
-        } else if (mimetype.startsWith("image/") || mimetype.startsWith("video/")) {
+        } else if (mimetype.isVideoMimeType()) {
+            val videoPartUri = Uri.withAppendedPath(uri, partId.toString())
+            runCatching {
+                // Purge downloaded video payload immediately; keep only a UI placeholder attachment.
+                contentResolver.delete(videoPartUri, null, null)
+            }
+            messageAttachment.attachments.add(
+                Attachment(
+                    id = partId,
+                    messageId = id,
+                    uriString = getVideoAttachmentPlaceholderUri().toString(),
+                    mimetype = mimetype,
+                    width = 0,
+                    height = 0,
+                    filename = ""
+                )
+            )
+        } else if (mimetype.isImageMimeType()) {
             val fileUri = Uri.withAppendedPath(uri, partId.toString())
             messageAttachment.attachments.add(
                 Attachment(
@@ -556,6 +573,15 @@ fun Context.getMmsAttachment(id: Long): MessageAttachment {
     }
 
     return messageAttachment
+}
+
+private fun Context.getVideoAttachmentPlaceholderUri(): Uri {
+    return Uri.Builder()
+        .scheme(ContentResolver.SCHEME_ANDROID_RESOURCE)
+        .authority(packageName)
+        .appendPath("drawable")
+        .appendPath("ic_video_camera_vector")
+        .build()
 }
 
 fun Context.getLatestMMS(): Message? {
