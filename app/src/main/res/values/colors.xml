@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <!-- App brand: Kosher Text blue (overrides Commons green defaults) -->
+    <color name="color_primary">#2F7DE1</color>
+    <!-- Slightly darker blue for status bar / “primary dark” role -->
+    <color name="color_primary_dark">#2566C4</color>
+    <!-- Used by some layouts (e.g. attachment picker icon circles) as @color/colorPrimary -->
+    <color name="colorPrimary">#2F7DE1</color>
+    <!-- System / “Material You” style themes in Commons -->
+    <color name="you_primary_color">#2F7DE1</color>
+    <color name="you_primary_dark_color">#2566C4</color>
 </resources>
